@@ -139,9 +139,9 @@ while True:
             media5 = (nota1 + nota2 + nota3 + nota4) / 4
 
             if media5 >= 5:
-                print(f'O {nome} do {serie_turma} está com média normal: {media5} (Aprovado nessa matéria).\n')
+                print(f'O {nome} do {serie_turma} está com a média normal: {media5} (Aprovado nessa matéria).\n')
             else:
-                print(f'O {nome} do {serie_turma} está com média baixa: {media5} (Reprovado nessa matéria).\n')
+                print(f'O {nome} do {serie_turma} está com a média baixa: {media5} (Reprovado nessa matéria).\n')
 
         elif escolha == 6:
             print('Aprovado ou Reprovado\n')
@@ -156,9 +156,9 @@ while True:
             mediaGeral = (nota1 + nota2 + nota3 + nota4) / 4
 
             if mediaGeral >= 5:
-                print(f'O {nome} do {serie_turma} está com média normal: {mediaGeral} (Aprovado).\n')
+                print(f'O {nome} do {serie_turma} está com a média normal: {mediaGeral} (Aprovado).\n')
             else:
-                print(f'O {nome} do {serie_turma} está com média baixa: {mediaGeral} (Reprovado).\n')
+                print(f'O {nome} do {serie_turma} está com a média baixa: {mediaGeral} (Reprovado).\n')
 
         elif escolha == 7:
             print('Sistema encerrado!')
@@ -166,3 +166,4 @@ while True:
 
     except ValueError:
         print('Entrada inválida! Digite apenas números de 1 a 7.\n')
+
